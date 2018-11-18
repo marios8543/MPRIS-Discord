@@ -1,4 +1,4 @@
-print("MPRIS-compatible Discord Rich Presence by marios8543 \n")
+print("MPRIS-compatible Discord Rich Presence by marios8543\nhttps://github.com/marios8543/MPRIS-Discord")
 
 from mpris2 import get_players_uri,Player
 from dbus.mainloop.glib import DBusGMainLoop
