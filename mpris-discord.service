@@ -1,0 +1,13 @@
+[Unit]
+Description=MPRIS Discord
+
+[Service]
+ExecStart=/home/marios/Documents/MPRIS-Discord/bin/python /home/marios/Documents/MPRIS-Discord/main.py
+Restart=on-failure
+WorkingDirectory=/home/marios/Documents/MPRIS-Discord
+User=marios
+Group=marios
+Environment=XDG_RUNTIME_DIR="/run/user/1000"
+
+[Install]
+WantedBy=multi-user.target
